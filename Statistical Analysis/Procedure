@@ -1,0 +1,28 @@
+Step 1: Select the file that you want to use. We will be using .sav files.
+
+Step 2: Drag two STATISTICS SOURC nodes from SOURCES pallete to the canvas.
+
+Step 3: Add the files in the SOURCE node.
+
+Step 4: Observe the files by adding TABLE node from OUTPUT pallete. 
+
+Step 5: Now add the TYPE node from FIELD OPS pallete to observe the types of every field.
+
+Step 6: Then we add the GRAPHBOARD node from GRAPHS pallete to plot a graph between relevant fields. 
+
+Step 7: We open the GRAPHBOARD node and plot the graph and analyse it.
+
+Step 8: Now we have to build a mdoel but we don't know which model to build.
+
+Step 9: So now to find out the best model we will either add Auto-classifier(which reads numeric measurements), Auto-Numeric(which reads continous measurements) or 
+        Auto-Clusters(which reads all type of measurements). Here we choose Auto-numeric as we want the target to be of continous measurement from MODELLING pallate.
+        
+Step 10: Here we see the number of models we want to obtain. Then we switch to field tab and add the target field and input fields.
+
+Step 11: When we run it, we obtain a GOLDEN NUGGET which gives us the models we can make using the data. The best model will be the one which will have the least RELATIVE ERROR.
+
+Step 12: We obtain the best model as GENERALIZATION model and then we add the model from MODELLING pallete.
+
+Step 13: We select the target field and input fields and run it.
+
+Step 14: We obtain a GOLDEN NUGGET on opening of which we can see the model and analyse the data set.

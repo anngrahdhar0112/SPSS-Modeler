@@ -1,0 +1,14 @@
+step1: Select the files that you want to merge. We will be using .csv files.
+
+Step 2: Drag two VAR SOURCE nodes from SOURCES pallete to the canvas.
+
+Step 3: Add both the files in the SOURCE node.
+
+Step 4: Observe both the files by adding TABLE node from OUTPUT pallete and connecting both the SOURCE node to MERGE node. 
+
+Step 5: Add the MERGE node from RECORD OPS pallete and coonect both the SOURCE nodes to it.
+
+Step 6: Select the particular merge method by opening the MERGE node. Here we chose KEYS method to merge and used all the common fields to it. Also choose the type of join you want to choose.
+        Here we chose FULL OUTER JOIN as it will include all the values(duplicate and non-duplicate).
+
+Step 7: Observe the merged data using TABLE node and vaerify the number of fields and records and then build a model after that.

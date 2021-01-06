@@ -1,4 +1,4 @@
-step1: Select the files that you want to merge. We will be using .csv files.
+Step 1: Select the files that you want to merge. We will be using .csv files.
 
 Step 2: Drag two VAR SOURCE nodes from SOURCES pallete to the canvas.
 

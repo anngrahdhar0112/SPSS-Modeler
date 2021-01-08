@@ -1,0 +1,29 @@
+Step 1: Import Excel file using EXCEL node from SOURCE palette.
+
+Step 2: Observe the data using TABLE node from OUTPUT palette.
+
+Step 3: Add PARTITION node from FIELD OPS palette.
+
+Step 4: Set the percentage of training data and testing data as well as seed.
+
+Step 5: Observe the partitioned data using TABLE node from output palette.
+
+Step 6: Add SELECT node to separate training data and discarding testing data and vice versa.
+
+Step 7: Provide the condition to separate the data.
+
+Step 8: Add type node to read the values and set the role as target for specific field.
+
+Step 9: Add C5.0 model node to the canvas from MODELLING palette.
+
+Step 10: Set the target and input fields and run it.
+
+Step 11: Hence models are obtained and analyze it.
+
+Step 12: Now we need to check the accuracy of the model of both training and testing data set.
+
+Step 13: We add ANALYSIS node from OUTPUT palette.
+
+Step 14: We set the threshold value.
+
+Step 15: If the correctness of model is more than the threshold value and AUC is more than 0.5, then we have obtained a good model otherwise some changes are need to be done for the same.
